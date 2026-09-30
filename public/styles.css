@@ -1200,3 +1200,10 @@ a {
     background: rgba(255, 255, 255, 0.05);
   }
 }
+
+/* Static Massive brand mark */
+.sm-by { display: inline-flex; align-items: center; gap: 8px; margin-left: 6px; padding-left: 12px; border-left: 1px solid rgba(255,255,255,0.18); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--dim); }
+.sm-by img { height: 30px; width: auto; display: block; opacity: 0.92; }
+.sm-foot { margin-left: 10px; }
+.sm-foot img { height: 13px; width: auto; vertical-align: -3px; opacity: 0.8; margin: 0 2px; }
+@media (max-width: 560px) { .sm-by { display: none; } }
