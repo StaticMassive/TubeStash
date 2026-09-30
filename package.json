@@ -1,0 +1,22 @@
+{
+  "name": "tube-stash",
+  "version": "1.4.0",
+  "description": "Tube Stash — local YouTube downloader for Mac and Windows",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node server/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "private": true,
+  "author": "Static Massive",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StaticMassive/TubeStash.git"
+  }
+}

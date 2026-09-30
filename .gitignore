@@ -1,0 +1,10 @@
+node_modules/
+vendor/
+data/
+dist/
+temp/
+scripts/native/build/
+.DS_Store
+*.log
+*.bak
+Tube Stash.app/
